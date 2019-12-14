@@ -5,6 +5,13 @@ Created on Thu Nov 28 13:39:22 2019
 @author: Simon Guilbert
 """
 
+# =============================================================================
+# Ceci est le script du TP1 mis en ligne sur l'EAD le 07/12/2019.
+# La modification par rapport à la première version envoyée à la 
+# fin de la séance du 28/11/2019 se situe au niveau de la méthode
+# father qui ne fonctionnait pas correctement (oublie d'un argument).
+# =============================================================================
+
 # Question 1
 class Node:
     # Constructeur
@@ -97,4 +104,4 @@ Rtree(node0).father(node6)
 ''' Résumé de la séance :
     C'est la première fois que je code en récursif et j'ai eu beaucoup de mal à trouver une solution à partir de la question 3.4
     Je n'arrive pas à tester la méthode father car il manque un argument, mais je ne comprends pas pourquoi
-''' 
+'''  
